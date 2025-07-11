@@ -1,130 +1,160 @@
-# TechResuMake
-TECH-RESU-MAKE is a smart, user-friendly application that allows tech students and professionals to effortlessly build, manage, and export professional resumes. It supports resume scoring, template selection, and real-time previewing, aiming to simplify the job application process with automation and intelligent design.
+# TECH-RESU-MAKE
+Build smart, professional resumes with ease. TECH-RESU-MAKE is a resume builder designed especially for tech students and professionals to create, manage, and export beautiful, structured CVs using intelligent templates and automation tools.
 
-🎯 Features
-User Functionality
-Register / Log In / Log Out
+## 👩‍💻 Developer
 
-Edit profile (GitHub, LinkedIn, etc.)
+**Sharon Galela**  
+Email: n.sharongalela@gmail.com  
+Portfolio:  
+- [Demisize Website](https://www.demisize.co.za)  
+- [APD Johannesburg](https://apdjhb.co.za)  
 
-Create and manage multiple resumes
+---
 
-Add sections: personal info, skills, education, work experience, projects, certifications
+## 🧠 About the Project
 
-Real-time preview with template selection
+TECH-RESU-MAKE is a cross-platform resume builder app with the following goals:
+- Simplify resume creation
+- Offer real-time previews
+- Score resume completeness
+- Support export to PDF or Word
+- Enable tech students to present their skills effectively
 
-Export as PDF or Word
+---
 
-Auto-save resumes
+## 🚀 Features
 
-Resume scoring and suggestions
+### 🔹 For Users
+- Register, log in/out
+- Edit profile (GitHub, LinkedIn, etc.)
+- Create, duplicate, and delete resumes
+- Add sections:
+  - Personal details
+  - Technical skills
+  - Education
+  - Work experience
+  - Projects
+  - Certifications
+- Select templates and preview in real-time
+- Export as PDF or Word
+- Resume score and improvement suggestions
+- Autosave functionality
 
-Optional resume design services
+### 🔸 For System
+- Score resume completeness
+- Format into selected templates
+- Autosave periodically
+- Export to file
+- Password reset & email verification
+- Optional monetization for custom resume services
 
-System Functionality
-Resume completeness scoring
+---
 
-Autosave functionality
+## 🛠️ Tech Stack
 
-Export and formatting engine
+**Languages:** Python, Java, C++, C#, SQL  
+**Frameworks & Tools:** Java Swing, UiPath, ZOHO Creator (Deluge), Excel  
+**Focus Areas:** UI Development, Automation, Data Analysis
 
-Email verification / password reset
+---
 
-Resume design monetization (optional)
+## 📋 Class Design
 
-⚙️ Tech Stack
-Languages: Python, Java, C++, C#, SQL
-Frameworks / Tools: Java Swing, UiPath, ZOHO Creator (Deluge), Advanced Excel
-Areas of Focus: UI Development, Data Analysis, Automation
+| Class         | Description                     | Attributes                              | Responsibilities                         |
+|---------------|---------------------------------|-----------------------------------------|------------------------------------------|
+| `User`        | Represents a user               | id, name, email, password, GitHub, LinkedIn | Register, login, manage profile/resumes |
+| `Resume`      | A resume object                 | id, title, summary, createdDate         | Add/edit sections, export resume         |
+| `Skill`       | Technical skills                | name, proficiencyLevel                  | Store skill data                         |
+| `Education`   | Education history               | institution, degree, startDate, endDate | Validate and store education data        |
+| `Experience`  | Work experience entries         | company, role, startDate, endDate, description | Store job history info          |
+| `Project`     | Projects done                   | title, description, technologies, link  | Store project details                    |
+| `Certification` | Earned certificates          | name, issuer, issueDate                 | Store certification data                 |
+| `Template`    | Resume format                   | id, name, style                         | Apply design styling                     |
 
-🛠️ Non-Functional Requirements
-Fast load time (< 2 seconds for previews)
+---
 
-Scalability for thousands of users
+## 🧩 Class Relationships
 
-HTTPS encryption and secure data storage
+- **User ↔ Resume**: Aggregation (1 user → many resumes)
+- **Resume ↔ [Skill, Education, etc.]**: Composition
+- **Resume ↔ Template**: Association
+- *(Optional)* Admin inherits from User
 
-99.9% uptime
+---
 
-Auto-save and backup for data protection
+## 🧪 Validation Features
 
-Mobile, tablet, and desktop responsiveness
+- Email format validation
+- Password strength checker
+- Skill level range (1–5)
+- Date range validation
+- Mandatory field checks
+- URL format validation (GitHub, LinkedIn)
 
-Accessible design (keyboard, screen readers)
+---
 
-Browser compatibility (Chrome, Firefox, Safari, Edge)
+## 🔄 Sequence Diagrams
+1. User Registration/Login
+2. Resume Creation
+3. Resume Export
 
-Modular and maintainable codebase
+---
 
-Compliance with POPIA and GDPR
+## 📅 Project Timeline
 
-Support for future multi-language localization
+### 📌 Phase 1: Weeks 1–4
+- Define goals & wireframes
+- Set up environment (Java, IDE, GitHub)
+- Build UI for input forms
+- Implement input validation
 
-🧩 Class & Object Model
-Class	Attributes	Responsibilities
-User	id, name, email, password, GitHub, LinkedIn	Register, login, manage profiles/resumes
-Resume	id, title, summary, createdDate	Add/edit/export resume sections
-Skill	name, proficiencyLevel	Store skills
-Education	institution, degree, startDate, endDate	Store academic history
-Experience	company, role, startDate, endDate, description	Store work history
-Project	title, description, technologies, link	Store project info
-Certification	name, issuer, issueDate	Store certifications
-Template	id, name, style	Store resume formatting templates
+### 📌 Phase 2: Weeks 5–12
+- Display data in UI
+- Export functionality (.txt)
+- Improve UX and error handling
+- Test & refine UI
 
-🔗 Class Relationships
-User → Resume (Aggregation)
+### 📌 Phase 3: Weeks 13–16
+- Full app testing
+- Clean and comment code
+- Add README, LICENSE, `.gitignore`
+- Final polish for GitHub release
 
-Resume → Skills, Education, Experience, Projects, Certifications (Composition)
+---
 
-Resume → Template (Association)
+## 🏆 Achievements
 
-(Optional) Admin inherits from User
+- 🎓 BSc in IT – North West University (NQF 6)
+- 🎓 BSc in Computing – UNISA (In Progress)
+- 🏅 Golden Key Honor Society
+- 📜 UiPath Automation Explorer
+- 📜 Data Analyst Certificate
+- 📜 Assessor & Facilitator Certified
 
-🔄 Sequence Diagrams
-User Registration & Login
+---
 
-Create Resume
+## ✅ Non-Functional Requirements
 
-Export Resume
+- ⏱ Load previews < 2 seconds
+- 🔒 HTTPS and encrypted storage
+- 📈 High scalability
+- 💾 Auto-save and backup
+- 🌐 Responsive (Mobile/Desktop)
+- 🌍 Accessibility + Localization-ready
+- 🔧 Clean, modular, maintainable code
+- 🛡 POPIA & GDPR compliant
+- 🌐 Cross-browser support
 
-🧪 Validation & Testing
-Email Format Validation
+---
 
-Password Strength Validation
+## 📄 License
 
-Skill Level Validation (1–5 scale)
+Add your preferred license (MIT recommended) in the `LICENSE` file.
 
-Date Range Validation
+---
 
-Required Fields Check
+## 👋 Let’s Collaborate
 
-URL Format Validation (GitHub, LinkedIn)
-
-🗓️ Project Timeline
-Phase 1 (Weeks 1–4): Planning & UI
-Set goals and project scope
-
-Java Swing environment setup
-
-Input forms and basic validation
-
-Wireframes and data flow planning
-
-Phase 2 (Weeks 5–12): Display & Export
-Display user data in app
-
-Implement .txt export functionality
-
-Refine layout and error handling
-
-Test and improve usability
-
-Phase 3 (Weeks 13–16): Finalization
-Full feature testing
-
-Code clean-up and commenting
-
-Prepare README, LICENSE, .gitignore
-
-GitHub repo setup and polish
+I'm open to collaborating on innovative, impact-driven tech projects.  
+📬 Reach out via [n.sharongalela@gmail.com](mailto:n.sharongalela@gmail.com)
 
