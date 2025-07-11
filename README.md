@@ -5,10 +5,6 @@ Build smart, professional resumes with ease. TECH-RESU-MAKE is a resume builder 
 
 **Sharon Galela**  
 Email: n.sharongalela@gmail.com  
-Portfolio:  
-- [Demisize Website](https://www.demisize.co.za)  
-- [APD Johannesburg](https://apdjhb.co.za)  
-
 ---
 
 ## 🧠 About the Project
