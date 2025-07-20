@@ -1,156 +1,71 @@
-# TECH-RESU-MAKE
-Build smart, professional resumes with ease. TECH-RESU-MAKE is a resume builder designed especially for tech students and professionals to create, manage, and export beautiful, structured CVs using intelligent templates and automation tools.
+# 💼 TECH-RESU-MAKE
+
+**A Smart Resume Builder for Tech Students & Professionals**
+
+TECH-RESU-MAKE is a cross-platform desktop application designed to help users build clean, modern, and well-structured resumes. Featuring customizable templates, real-time previews, resume scoring, and export options, this Java Swing app supports both creation and evaluation of technical CVs through an intuitive interface.
+
+---
 
 ## 👩‍💻 Developer
 
 **Sharon Galela**  
-Email: n.sharongalela@gmail.com  
+Email: [n.sharongalela@gmail.com](mailto:n.sharongalela@gmail.com)  
+
+---
+
+## 🧑‍💻 GUI: Personal Details
+
+<img width="448" height="369" alt="image" src="https://github.com/user-attachments/assets/fc15694a-b89b-4549-b615-d92539505964" />
+
 ---
 
 ## 🧠 About the Project
 
-TECH-RESU-MAKE is a cross-platform resume builder app with the following goals:
-- Simplify resume creation
-- Offer real-time previews
-- Score resume completeness
-- Support export to PDF or Word
-- Enable tech students to present their skills effectively
+TECH-RESU-MAKE aims to:  
+- Simplify resume creation  
+- Offer real-time preview of resumes  
+- Score resume completeness and quality  
+- Support exporting to PDF or Word formats  
+- Help tech students effectively showcase their skills and experience  
 
 ---
 
 ## 🚀 Features
 
-### 🔹 For Users
-- Register, log in/out
-- Edit profile (GitHub, LinkedIn, etc.)
-- Create, duplicate, and delete resumes
-- Add sections:
-  - Personal details
-  - Technical skills
-  - Education
-  - Work experience
-  - Projects
-  - Certifications
-- Select templates and preview in real-time
-- Export as PDF or Word
-- Resume score and improvement suggestions
-- Autosave functionality
+### 🎯 User-Facing
 
-### 🔸 For System
-- Score resume completeness
-- Format into selected templates
-- Autosave periodically
-- Export to file
-- Password reset & email verification
-- Optional monetization for custom resume services
+- User registration, login, and logout  
+- Input personal details including GitHub and LinkedIn links  
+- Create, manage, and switch between multiple resumes  
+- Input and validate skills, education, experience, projects, and certifications  
+- Choose from customizable templates with real-time preview  
+- Export resumes to PDF or Word documents  
+- Resume completeness scoring and optimization suggestions  
+- Auto-save functionality to prevent data loss  
+
+### ⚙️ System Functionality
+
+- Resume completeness scoring engine  
+- Automatic content formatting based on selected template  
+- Autosave and data backup mechanisms  
+- Validation for emails, dates, URLs, and password strength  
+- User profile management features  
+- Optional email verification and password reset  
 
 ---
 
-## 🛠️ Tech Stack
+## 🔮 Future Enhancements
 
-**Languages:** Python, Java, C++, C#, SQL  
-**Frameworks & Tools:** Java Swing, UiPath, ZOHO Creator (Deluge), Excel  
-**Focus Areas:** UI Development, Automation, Data Analysis
-
----
-
-## 📋 Class Design
-
-| Class         | Description                     | Attributes                              | Responsibilities                         |
-|---------------|---------------------------------|-----------------------------------------|------------------------------------------|
-| `User`        | Represents a user               | id, name, email, password, GitHub, LinkedIn | Register, login, manage profile/resumes |
-| `Resume`      | A resume object                 | id, title, summary, createdDate         | Add/edit sections, export resume         |
-| `Skill`       | Technical skills                | name, proficiencyLevel                  | Store skill data                         |
-| `Education`   | Education history               | institution, degree, startDate, endDate | Validate and store education data        |
-| `Experience`  | Work experience entries         | company, role, startDate, endDate, description | Store job history info          |
-| `Project`     | Projects done                   | title, description, technologies, link  | Store project details                    |
-| `Certification` | Earned certificates          | name, issuer, issueDate                 | Store certification data                 |
-| `Template`    | Resume format                   | id, name, style                         | Apply design styling                     |
-
----
-
-## 🧩 Class Relationships
-
-- **User ↔ Resume**: Aggregation (1 user → many resumes)
-- **Resume ↔ [Skill, Education, etc.]**: Composition
-- **Resume ↔ Template**: Association
-- *(Optional)* Admin inherits from User
-
----
-
-## 🧪 Validation Features
-
-- Email format validation
-- Password strength checker
-- Skill level range (1–5)
-- Date range validation
-- Mandatory field checks
-- URL format validation (GitHub, LinkedIn)
-
----
-
-## 🔄 Sequence Diagrams
-1. User Registration/Login
-2. Resume Creation
-3. Resume Export
-
----
-
-## 📅 Project Timeline
-
-### 📌 Phase 1: Weeks 1–4
-- Define goals & wireframes
-- Set up environment (Java, IDE, GitHub)
-- Build UI for input forms
-- Implement input validation
-
-### 📌 Phase 2: Weeks 5–12
-- Display data in UI
-- Export functionality (.txt)
-- Improve UX and error handling
-- Test & refine UI
-
-### 📌 Phase 3: Weeks 13–16
-- Full app testing
-- Clean and comment code
-- Add README, LICENSE, `.gitignore`
-- Final polish for GitHub release
-
----
-
-## 🏆 Achievements
-
-- 🎓 BSc in IT – North West University (NQF 6)
-- 🎓 BSc in Computing – UNISA (In Progress)
-- 🏅 Golden Key Honor Society
-- 📜 UiPath Automation Explorer
-- 📜 Data Analyst Certificate
-- 📜 Assessor & Facilitator Certified
-
----
-
-## ✅ Non-Functional Requirements
-
-- ⏱ Load previews < 2 seconds
-- 🔒 HTTPS and encrypted storage
-- 📈 High scalability
-- 💾 Auto-save and backup
-- 🌐 Responsive (Mobile/Desktop)
-- 🌍 Accessibility + Localization-ready
-- 🔧 Clean, modular, maintainable code
-- 🛡 POPIA & GDPR compliant
-- 🌐 Cross-browser support
-
----
-
-## 📄 License
-
-Add your preferred license (MIT recommended) in the `LICENSE` file.
+- Implement persistent save/load functionality (file system or database)  
+- Add UI panels and input forms for Education and Experience sections  
+- Improve input validation for emails, phone numbers, and other fields  
+- Enable formatted resume generation (PDF, plain text, etc.)  
+- Enhance error handling and user feedback in the interface  
+- Implement persistent storage to maintain user data across sessions  
 
 ---
 
 ## 👋 Let’s Collaborate
 
-I'm open to collaborating on innovative, impact-driven tech projects.  
-📬 Reach out via [n.sharongalela@gmail.com](mailto:n.sharongalela@gmail.com)
-
+I’m open to collaborating on innovative, impact-driven tech projects.  
+Feel free to reach out: [n.sharongalela@gmail.com](mailto:n.sharongalela@gmail.com)
