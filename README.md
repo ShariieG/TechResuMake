@@ -12,7 +12,10 @@ TECH-RESU-MAKE is a cross-platform desktop application designed to help users bu
 Email: [n.sharongalela@gmail.com](mailto:n.sharongalela@gmail.com)  
 
 ---
+## Classes
+<img width="651" height="506" alt="image" src="https://github.com/user-attachments/assets/a058a7f3-42f9-42eb-b074-766da5c24ac1" />
 
+---
 ## 🧑‍💻 GUI: Personal Details
 
 <img width="448" height="369" alt="image" src="https://github.com/user-attachments/assets/fc15694a-b89b-4549-b615-d92539505964" />
