@@ -23,7 +23,24 @@ TECH-RESU-MAKE aims to:
 - Help tech students effectively showcase their skills and experience  
 
 ---
+## 📚 Topics Covered
 
+This project demonstrates comprehensive implementation of:
+
+### 🧩 Core Java Concepts
+- Object-Oriented Programming (OOP) principles
+- Inheritance and polymorphism
+- Encapsulation with getters/setters
+- Exception handling
+- Collections Framework (ArrayLists)
+- String manipulation and formatting
+
+### 🖥️ GUI Development
+- Swing components (JFrame, JPanel, JButton etc.)
+- Layout managers (GridBagLayout, BorderLayout)
+- Event handling (ActionListeners)
+- Input validation
+- Multi-panel navigation
 ## 🚀 Features
 
 ### 🎯 User-Facing
