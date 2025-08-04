@@ -23,6 +23,7 @@ TECH-RESU-MAKE aims to:
 - Help tech students effectively showcase their skills and experience  
 
 ---
+
 ## 📚 Topics Covered
 
 This project demonstrates comprehensive implementation of:
@@ -40,8 +41,28 @@ This project demonstrates comprehensive implementation of:
 - Layout managers (GridBagLayout, BorderLayout)
 - Event handling (ActionListeners)
 - Input validation
-- Multi-panel navigation
-## 🚀 Features
+- Multi-panel navigation (CardLayout)
+- Custom painting and graphics
+- Component organization and grouping
+- Text field validation and user feedback
+
+### 📊 Data Management
+- Model-View separation
+- Data encapsulation
+- ArrayList operations
+- Data formatting for output
+- Form data collection and processing
+
+### 🛠️ Software Design
+- Modular component design
+- Separation of concerns
+- UI/Logic separation
+- Reusable panel components
+- Consistent design patterns
+
+---
+
+## � Features
 
 ### 🎯 User-Facing
 
@@ -86,7 +107,7 @@ This project demonstrates comprehensive implementation of:
 
 ---
 
-## 👋 Let’s Collaborate
+## 👋 Let's Collaborate
 
-I’m open to collaborating on innovative, impact-driven tech projects.  
+I'm open to collaborating on innovative, impact-driven tech projects.  
 Feel free to reach out: [n.sharongalela@gmail.com](mailto:n.sharongalela@gmail.com)
