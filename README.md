@@ -91,9 +91,10 @@ This project demonstrates comprehensive implementation of:
 
 
 ---
-## 🧑‍💻 GUI: Personal Details
+## 🧑‍💻 GUI: Output
 
-<img width="448" height="369" alt="image" src="https://github.com/user-attachments/assets/fc15694a-b89b-4549-b615-d92539505964" />
+<img width="1109" height="1080" alt="image" src="https://github.com/user-attachments/assets/35c99dc0-000f-4b47-b4d4-8a0fb6b95eea" />
+
 
 --- 
 
