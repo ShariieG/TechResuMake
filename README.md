@@ -87,7 +87,8 @@ This project demonstrates comprehensive implementation of:
 ---
 
 ## Classes
-<img width="651" height="506" alt="image" src="https://github.com/user-attachments/assets/a058a7f3-42f9-42eb-b074-766da5c24ac1" />
+<img width="1912" height="992" alt="image" src="https://github.com/user-attachments/assets/e8934536-a023-44ef-b566-e12197a8a91b" />
+
 
 ---
 ## 🧑‍💻 GUI: Personal Details
