@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Resume
+comment1.params=personalPanel\ techSkillsPanel\ projectPanel\ educationPanel\ experiencePanel
+comment1.target=Resume(PersonalPanel,\ TechSkillsPanel,\ ProjectPanel,\ EducationPanel,\ ExperiencePanel)
+comment2.params=
+comment2.target=void\ design()
+comment3.params=arg0
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=4
