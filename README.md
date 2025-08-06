@@ -93,7 +93,8 @@ This project demonstrates comprehensive implementation of:
 ---
 ## 🧑‍💻 GUI: Output
 
-<img width="1109" height="1080" alt="image" src="https://github.com/user-attachments/assets/35c99dc0-000f-4b47-b4d4-8a0fb6b95eea" />
+<<img width="1107" height="1017" alt="image" src="https://github.com/user-attachments/assets/4f4c1998-7c35-4190-9ecf-0ae25af51474" />
+
 
 
 --- 
